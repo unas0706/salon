@@ -1,0 +1,725 @@
+[
+ {
+  "id": 0,
+  "area": "West Mambalam",
+  "city": "Chennai",
+  "lat": 13.03236,
+  "lng": 80.21916,
+  "phones": [
+   "9150624515",
+   "044 4853 6434"
+  ],
+  "address": ""
+ },
+ {
+  "id": 1,
+  "area": "Guindy",
+  "city": "Chennai",
+  "lat": 12.99772,
+  "lng": 80.21049,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 2,
+  "area": "Jafferkhanpet",
+  "city": "Chennai",
+  "lat": 13.0305,
+  "lng": 80.20184,
+  "phones": [
+   "4448656210",
+   "8015100000"
+  ],
+  "address": ""
+ },
+ {
+  "id": 3,
+  "area": "Adambakkam",
+  "city": "Chennai",
+  "lat": 12.98928,
+  "lng": 80.19816,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 4,
+  "area": "Velachery",
+  "city": "Chennai",
+  "lat": 12.97806,
+  "lng": 80.20997,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 5,
+  "area": "Ramapuram 2",
+  "city": "Chennai",
+  "lat": 13.02679,
+  "lng": 80.18325,
+  "phones": [
+   "9884063311"
+  ],
+  "address": ""
+ },
+ {
+  "id": 6,
+  "area": "Choolaimedu",
+  "city": "Chennai",
+  "lat": 13.06119,
+  "lng": 80.22355,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 7,
+  "area": "Mylapore",
+  "city": "Chennai",
+  "lat": 13.03858,
+  "lng": 80.27387,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 8,
+  "area": "Ramapuram",
+  "city": "Chennai",
+  "lat": 13.03904,
+  "lng": 80.18214,
+  "phones": [
+   "9952060074",
+   "9790913996"
+  ],
+  "address": ""
+ },
+ {
+  "id": 9,
+  "area": "Manapakkam",
+  "city": "Chennai",
+  "lat": 13.0159,
+  "lng": 80.17497,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 10,
+  "area": "Royapettah",
+  "city": "Chennai",
+  "lat": 13.05361,
+  "lng": 80.26821,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 11,
+  "area": "Balaiah Garden (Madipakkam)",
+  "city": "Chennai",
+  "lat": 12.96364,
+  "lng": 80.21567,
+  "phones": [
+   "73054 78880"
+  ],
+  "address": ""
+ },
+ {
+  "id": 12,
+  "area": "Madipakkam",
+  "city": "Chennai",
+  "lat": 12.96791,
+  "lng": 80.19409,
+  "phones": [
+   "9840509516",
+   "9481333395"
+  ],
+  "address": ""
+ },
+ {
+  "id": 13,
+  "area": "Arumbakkam",
+  "city": "Chennai",
+  "lat": 13.07192,
+  "lng": 80.20993,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 14,
+  "area": "Nerkundram",
+  "city": "Chennai",
+  "lat": 13.06101,
+  "lng": 80.18479,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 15,
+  "area": "Valasaravakkam",
+  "city": "Chennai",
+  "lat": 13.04735,
+  "lng": 80.16921,
+  "phones": [
+   "8825428530"
+  ],
+  "address": ""
+ },
+ {
+  "id": 16,
+  "area": "Triplicane",
+  "city": "Chennai",
+  "lat": 13.06335,
+  "lng": 80.27549,
+  "phones": [
+   "73050-99123"
+  ],
+  "address": ""
+ },
+ {
+  "id": 17,
+  "area": "Kolapakkam",
+  "city": "",
+  "lat": 13.0145,
+  "lng": 80.15292,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 18,
+  "area": "Madanandapuram",
+  "city": "Chennai",
+  "lat": 13.02197,
+  "lng": 80.15333,
+  "phones": [
+   "04448606999",
+   "070940 99099"
+  ],
+  "address": ""
+ },
+ {
+  "id": 19,
+  "area": "Kilpauk",
+  "city": "Chennai",
+  "lat": 13.08785,
+  "lng": 80.24223,
+  "phones": [
+   "9489967767"
+  ],
+  "address": ""
+ },
+ {
+  "id": 20,
+  "area": "Maduravoyal",
+  "city": "Chennai",
+  "lat": 13.05972,
+  "lng": 80.1657,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 21,
+  "area": "JJ Nagar Moggapair East",
+  "city": "Chennai",
+  "lat": 13.08109,
+  "lng": 80.18586,
+  "phones": [
+   "9962077977"
+  ],
+  "address": ""
+ },
+ {
+  "id": 22,
+  "area": "Mogappair",
+  "city": "Chennai",
+  "lat": 13.08056,
+  "lng": 80.17037,
+  "phones": [
+   "044-35509296",
+   "7338896949"
+  ],
+  "address": ""
+ },
+ {
+  "id": 23,
+  "area": "Ayanavaram",
+  "city": "Chennai",
+  "lat": 13.10031,
+  "lng": 80.23995,
+  "phones": [
+   "7200166936",
+   "044 42873341"
+  ],
+  "address": "No.287, Konnur High Road, Ayanavaram, Chennai-600 023."
+ },
+ {
+  "id": 24,
+  "area": "Nolambur",
+  "city": "Chennai",
+  "lat": 13.07252,
+  "lng": 80.16389,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 25,
+  "area": "Kovilambakkam",
+  "city": "Chennai",
+  "lat": 12.93329,
+  "lng": 80.19019,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 26,
+  "area": "Villivakam",
+  "city": "Chennai",
+  "lat": 13.10205,
+  "lng": 80.20057,
+  "phones": [
+   "044-48612121"
+  ],
+  "address": ""
+ },
+ {
+  "id": 27,
+  "area": "Nanmangalam",
+  "city": "Chennai",
+  "lat": 12.93875,
+  "lng": 80.1731,
+  "phones": [
+   "7305945262"
+  ],
+  "address": ""
+ },
+ {
+  "id": 28,
+  "area": "Noombal",
+  "city": "Chennai",
+  "lat": 13.04844,
+  "lng": 80.13754,
+  "phones": [
+   "7200357409"
+  ],
+  "address": ""
+ },
+ {
+  "id": 29,
+  "area": "Cheap and Best Men's Salon, Perambur",
+  "city": "",
+  "lat": 13.11553,
+  "lng": 80.2316,
+  "phones": [
+   "7806969001"
+  ],
+  "address": "94/20, MADHAVARAM MAIN ROAD, PERAMBUR."
+ },
+ {
+  "id": 30,
+  "area": "Pammal",
+  "city": "Chennai",
+  "lat": 12.97584,
+  "lng": 80.13538,
+  "phones": [
+   "044-42662828"
+  ],
+  "address": ""
+ },
+ {
+  "id": 31,
+  "area": "Perumbur",
+  "city": "Chennai",
+  "lat": 13.11553,
+  "lng": 80.2316,
+  "phones": [
+   "917699110"
+  ],
+  "address": ""
+ },
+ {
+  "id": 32,
+  "area": "Kolathur",
+  "city": "Chennai",
+  "lat": 13.11901,
+  "lng": 80.20871,
+  "phones": [
+   "9884558851"
+  ],
+  "address": ""
+ },
+ {
+  "id": 33,
+  "area": "Perumbakkam",
+  "city": "Chennai",
+  "lat": 12.91099,
+  "lng": 80.19643,
+  "phones": [
+   "7305155517"
+  ],
+  "address": ""
+ },
+ {
+  "id": 34,
+  "area": "Royapuram",
+  "city": "Chennai",
+  "lat": 13.10893,
+  "lng": 80.29341,
+  "phones": [
+   "9940055760"
+  ],
+  "address": ""
+ },
+ {
+  "id": 35,
+  "area": "Ayapakkam",
+  "city": "Chennai",
+  "lat": 13.10154,
+  "lng": 80.14972,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 36,
+  "area": "Korukkupet",
+  "city": "Chennai",
+  "lat": 13.12182,
+  "lng": 80.27697,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 37,
+  "area": "MKB Nagar",
+  "city": "Chennai",
+  "lat": 13.12802,
+  "lng": 80.25885,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 38,
+  "area": "Ponniammanmedu",
+  "city": "Chennai",
+  "lat": 13.13547,
+  "lng": 80.22029,
+  "phones": [
+   "044-45122406"
+  ],
+  "address": ""
+ },
+ {
+  "id": 39,
+  "area": "Muthamizh Nagar",
+  "city": "Chennai",
+  "lat": 13.13419,
+  "lng": 80.25195,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 40,
+  "area": "Kaladipet",
+  "city": "Chennai",
+  "lat": 13.15739,
+  "lng": 80.29762,
+  "phones": [
+   "044-79695865",
+   "098841 18411"
+  ],
+  "address": ""
+ },
+ {
+  "id": 41,
+  "area": "Vinayagapuram",
+  "city": "Chennai",
+  "lat": 13.13632,
+  "lng": 80.20886,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 42,
+  "area": "Tondiarpet Market",
+  "city": "Chennai",
+  "lat": 13.123,
+  "lng": 80.29149,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 43,
+  "area": "Madabakkam",
+  "city": "Chennai",
+  "lat": 12.90604,
+  "lng": 80.15916,
+  "phones": [
+   "600126 9500525667"
+  ],
+  "address": "No 177 Madambakkam main road,Anna nagar ,Maruthi nagar ,madambakkam,chennai"
+ },
+ {
+  "id": 44,
+  "area": "West Saidapet",
+  "city": "Chennai",
+  "lat": 13.02434,
+  "lng": 80.21364,
+  "phones": [
+   "919500086789"
+  ],
+  "address": ""
+ },
+ {
+  "id": 45,
+  "area": "Agram",
+  "city": "Chennai",
+  "lat": 12.91153,
+  "lng": 80.14288,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 46,
+  "area": "Ambattur",
+  "city": "Chennai",
+  "lat": 13.12366,
+  "lng": 80.15184,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 47,
+  "area": "East Tambaram",
+  "city": "Chennai",
+  "lat": 12.92305,
+  "lng": 80.12856,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 48,
+  "area": "Tondiarpet",
+  "city": "Chennai",
+  "lat": 13.13477,
+  "lng": 80.28626,
+  "phones": [
+   "9500040055"
+  ],
+  "address": ""
+ },
+ {
+  "id": 49,
+  "area": "Thirumullaivoyal",
+  "city": "Chennai",
+  "lat": 13.12081,
+  "lng": 80.13574,
+  "phones": [
+   "8248343299"
+  ],
+  "address": ""
+ },
+ {
+  "id": 50,
+  "area": "NEW WASHERMENPET-CROSS ROAD",
+  "city": "Chennai",
+  "lat": 13.13946,
+  "lng": 80.29469,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 51,
+  "area": "Paruthipattu",
+  "city": "Chennai",
+  "lat": 13.09645,
+  "lng": 80.10838,
+  "phones": [
+   "9043098801"
+  ],
+  "address": ""
+ },
+ {
+  "id": 52,
+  "area": "Mathur",
+  "city": "Chennai",
+  "lat": 13.16745,
+  "lng": 80.24793,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 53,
+  "area": "Rajakadai",
+  "city": "Chennai",
+  "lat": 13.15228,
+  "lng": 80.2999,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 54,
+  "area": "Thiruvottiyur",
+  "city": "Chennai",
+  "lat": 13.16224,
+  "lng": 80.30305,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 55,
+  "area": "Maraimalai nagar",
+  "city": "Chengalpattu",
+  "lat": 12.7948,
+  "lng": 80.02616,
+  "phones": [
+   "0413-2234833"
+  ],
+  "address": ""
+ },
+ {
+  "id": 56,
+  "area": "Thiruvallur",
+  "city": "Thiruvallur",
+  "lat": 13.12913,
+  "lng": 79.91007,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 57,
+  "area": "Pondicherry",
+  "city": "Pondicherry",
+  "lat": 11.95044,
+  "lng": 79.83194,
+  "phones": [
+   "9884063311"
+  ],
+  "address": ""
+ },
+ {
+  "id": 58,
+  "area": "Villupuram",
+  "city": "Villupuram",
+  "lat": 11.93769,
+  "lng": 79.50187,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 59,
+  "area": "Hosur",
+  "city": "Hosur",
+  "lat": 12.74374,
+  "lng": 77.80924,
+  "phones": [
+   "9600529954"
+  ],
+  "address": ""
+ },
+ {
+  "id": 60,
+  "area": "Bangalore",
+  "city": "Bangalore",
+  "lat": 12.93392,
+  "lng": 77.62678,
+  "phones": [
+   "9962284444",
+   "096329 70444"
+  ],
+  "address": ""
+ },
+ {
+  "id": 61,
+  "area": "Tirchy",
+  "city": "Tirchy",
+  "lat": 10.75721,
+  "lng": 78.69269,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 62,
+  "area": "Bavani",
+  "city": "Bavani",
+  "lat": 11.45127,
+  "lng": 77.68631,
+  "phones": [
+   "9087048620"
+  ],
+  "address": "Sridhar Complex, No. 1-A5, 1-A6, 1-A7, Varnapuram 4th Street, Mettur Main Road, Bhavani 63830, Erode District"
+ },
+ {
+  "id": 63,
+  "area": "Pari Nagar, Erode",
+  "city": "Erode",
+  "lat": 11.33143,
+  "lng": 77.70031,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 64,
+  "area": "Thirupur-Velliangadu",
+  "city": "Thirupur",
+  "lat": 11.08521,
+  "lng": 77.3633,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 65,
+  "area": "Thirupur-Avinashi road",
+  "city": "Thirupur",
+  "lat": 11.12518,
+  "lng": 77.33006,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 66,
+  "area": "Sulur CB",
+  "city": "Coimbatore",
+  "lat": 11.02696,
+  "lng": 77.12708,
+  "phones": [
+   "9500057764"
+  ],
+  "address": ""
+ },
+ {
+  "id": 67,
+  "area": "Madurai",
+  "city": "Madurai -II",
+  "lat": 9.96573,
+  "lng": 78.13577,
+  "phones": [
+   "9489967767"
+  ],
+  "address": ""
+ },
+ {
+  "id": 68,
+  "area": "Byepass Road",
+  "city": "Madurai",
+  "lat": 9.92022,
+  "lng": 78.09394,
+  "phones": [],
+  "address": ""
+ },
+ {
+  "id": 69,
+  "area": "Taramani",
+  "city": "Chennai",
+  "lat": 12.9814,
+  "lng": 80.23872,
+  "phones": [
+   "9176992999",
+   "091769 92999"
+  ],
+  "address": ""
+ },
+ {
+  "id": 70,
+  "area": "Kolathur 2",
+  "city": "Chennai",
+  "lat": 13.13054,
+  "lng": 80.19902,
+  "phones": [],
+  "address": ""
+ }
+]
