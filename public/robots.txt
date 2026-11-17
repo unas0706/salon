@@ -1,0 +1,3 @@
+# Pitch concept, not an official Lakmé Salon website.
+User-agent: *
+Disallow: /

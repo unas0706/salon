@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fine Line — Barbers</title>
+<meta name="description" content="Fades, tapers and hot-towel shaves. Book your barber in under a minute.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Space+Mono:wght@400;700&family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- SPLASH -->
+<div class="splash" id="splash">
+  <div class="splash-hair"></div>
+  <svg class="splash-line" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true"><path d="M-20 400 C 300 420, 520 380, 760 220 S 1000 0, 1040 -20"/></svg>
+  <div class="splash-word"><span class="thin">fine</span><span class="bold">line</span></div>
+  <span class="mono tl">40.7128° N · 73.9860° W</span>
+  <span class="mono br">CHAIR #4</span>
+  <button class="skip mono" id="skip">Skip ›</button>
+</div>
+
+<!-- NAV -->
+<header class="nav">
+  <a class="logo" href="#top"><svg width="22" height="8" viewBox="0 0 22 8"><path d="M1 7 C 8 7, 14 3, 21 1" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg><b>FINE LINE</b></a>
+  <nav class="links"><a href="#menu">Services</a><a href="#barbers">Barbers</a><a href="#book">The book</a><a href="#gift">Gift</a><a href="#shelf">Shop</a><a href="#visit">Visit</a></nav>
+  <button class="pill dark" data-book>Book <i class="arr">↗</i></button>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="spot"></div>
+  <p class="hero-top">You pick the cut.<br><b>We do the</b></p>
+  <div class="status mono"><i class="dot"></i> Open now · next chair <span id="nextChair">2:40 PM</span></div>
+  <h1 class="hero-word"><span class="thin" data-parallax="-0.08">fine</span><span class="bold" data-parallax="0.08">line</span></h1>
+  <svg class="chair" viewBox="0 0 200 300" aria-label="Barber chair" data-parallax="-0.04">
+    <defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#2a2a2a"/><stop offset=".5" stop-color="#0c0c0c"/><stop offset="1" stop-color="#333"/></linearGradient>
+    <linearGradient id="ch" x1="0" x2="1"><stop offset="0" stop-color="#555"/><stop offset=".5" stop-color="#eee"/><stop offset="1" stop-color="#666"/></linearGradient></defs>
+    <rect x="50" y="10" width="100" height="140" rx="36" fill="url(#lg)" stroke="#444"/>
+    <g fill="#fff" opacity=".14"><circle cx="80" cy="50" r="4"/><circle cx="120" cy="50" r="4"/><circle cx="100" cy="75" r="4"/><circle cx="80" cy="100" r="4"/><circle cx="120" cy="100" r="4"/></g>
+    <rect x="28" y="118" width="22" height="70" rx="6" fill="url(#ch)"/><rect x="150" y="118" width="22" height="70" rx="6" fill="url(#ch)"/>
+    <rect x="40" y="150" width="120" height="44" rx="16" fill="url(#lg)" stroke="#444"/>
+    <rect x="92" y="194" width="16" height="50" fill="url(#ch)"/>
+    <rect x="52" y="244" width="96" height="46" rx="8" fill="url(#lg)" stroke="#555"/>
+    <rect x="52" y="244" width="96" height="6" fill="url(#ch)"/>
+  </svg>
+  <div class="hero-bottom">
+    <p>Fades, tapers and hot-towel shaves. Book your barber in under a minute.</p>
+    <div class="btns"><button class="pill light" data-book>Book a chair <i class="arr dk">↗</i></button><a class="pill ghost" href="#menu">See prices</a></div>
+    <small class="mono">★★★★★ 4.9 · 612 reviews</small>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="light menu" id="menu">
+  <p class="tag mono">#1 · The guard menu</p>
+  <h2>Every cut has <b>a number.</b></h2>
+  <p class="sub">Prices include the wash, the hot towel on the neck and a line-up on the way out. No surprises at the chair.</p>
+  <ul class="rows" id="rows"></ul>
+  <div class="clipper" id="clipper" aria-hidden="true"><svg viewBox="0 0 60 150"><defs><linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#111"/><stop offset=".45" stop-color="#bbb"/><stop offset="1" stop-color="#111"/></linearGradient></defs><rect x="8" y="2" width="44" height="26" rx="4" fill="#888"/><path d="M6 28h48l-4 112a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8z" fill="url(#cg)"/><rect x="26" y="50" width="8" height="30" rx="4" fill="#000" opacity=".6"/></svg></div>
+  <div class="deposit"><b>$10</b><span class="mono">Deposit, taken off your bill.</span></div>
+</section>
+
+<!-- WHY -->
+<section class="light why" id="why">
+  <p class="tag mono">#2 · Why book here <span class="r">Drag to spin · click a tool</span></p>
+  <h2 class="why-h">Nobody should have to DM a barber at midnight <span>for a 2 pm chair.</span></h2>
+  <div class="tool t1" data-tool="clock"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#111" stroke="#999" stroke-width="3"/><g stroke="#ccc" stroke-width="2"><path d="M50 8v8M50 84v8M8 50h8M84 50h8"/></g><path class="hand" d="M50 50V22" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="hand2" d="M50 50l18 10" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+  <div class="tool t2" data-tool="comb"><svg viewBox="0 0 40 220"><rect x="4" y="0" width="32" height="220" rx="10" fill="#555"/><g stroke="#222" stroke-width="2">
+    <path d="M10 10v40M16 10v40M22 10v40M28 10v40"/></g></svg></div>
+  <div class="tool t3" data-tool="bottle"><svg viewBox="0 0 60 120"><rect x="14" y="30" width="32" height="86" rx="8" fill="#111" stroke="#666"/><rect x="24" y="8" width="12" height="22" fill="#333"/><rect x="18" y="4" width="30" height="6" rx="3" fill="#777"/></svg></div>
+</section>
+
+<!-- BARBERS -->
+<section class="dark chairs" id="barbers">
+  <p class="tag mono">#3 · The chairs</p>
+  <h2>Four mirrors. <span class="dim">Pick yours.</span></h2>
+  <p class="sub">Each barber has his own station and his own diary. Pick a mirror to switch his lamp on.</p>
+  <div class="cards" id="cards"></div>
+</section>
+
+<!-- BOOK / GALLERY -->
+<section class="dark gallery" id="book">
+  <p class="tag mono">#4 · The book</p>
+  <h2>See the back.</h2>
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<!-- GIFT -->
+<section class="dark gift" id="gift">
+  <div class="card100"><span>$<b id="giftAmt">100</b></span></div>
+  <div class="gift-copy">
+    <h2>A chair, <b>gift-wrapped.</b></h2>
+    <p class="sub">Sent by email in a minute, good for any service or product, never expires.</p>
+    <div class="amts" id="amts"><button class="chip" data-v="50">$50</button><button class="chip on" data-v="100">$100</button><button class="chip" data-v="150">$150</button></div>
+    <button class="pill light" id="sendGift">Send a gift card <i class="arr dk">↗</i></button>
+  </div>
+</section>
+
+<!-- SHELF -->
+<section class="dark shelf" id="shelf">
+  <p class="tag mono">#5 · The shelf</p>
+  <h2>What your barber <b>used on you.</b></h2>
+  <p class="sub">Pick it up at the chair or have it delivered the next day.</p>
+  <div class="products" id="products"></div>
+</section>
+
+<!-- REVIEWS -->
+<section class="light reviews" id="reviews">
+  <p class="tag mono">#6 · Said in the chair</p>
+  <div class="big">4.9</div>
+  <blockquote class="rev" id="rev"><p></p><cite class="mono"></cite></blockquote>
+  <button class="next mono" id="revNext"><span id="revN">1 / 4</span> · Next →</button>
+  <small class="mono stars">★★★★★ · 612 reviews</small>
+</section>
+
+<!-- VISIT -->
+<section class="dark visit" id="visit">
+  <p class="tag mono">#7 · Find the chair</p>
+  <div class="map"><svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice"><g stroke="#333" stroke-width="2" fill="none"><path d="M0 60L400 100M0 140L400 120M120 0L160 200M260 0L240 200M0 20L400 180"/></g><circle cx="200" cy="108" r="6" fill="#fff"/><circle cx="200" cy="108" r="16" fill="none" stroke="#fff" opacity=".4"/></svg></div>
+  <address>123 Example Ave<br>Your City<br><span class="mono">Tue–Sun · 10:00–20:00</span></address>
+</section>
+
+<!-- FOOTER -->
+<footer class="foot dark">
+  <div class="hiring"><span>Now hiring: <b>two chairs to rent</b> · steady clientele, your hours, your book.</span><button class="pill ghost sm">Apply</button></div>
+  <div class="cta"><h3>The chair is free <b>at 2:40 PM.</b></h3><button class="pill light" data-book>Book a chair <i class="arr dk">↗</i></button></div>
+  <div class="mega"><span class="thin">fine</span> <span class="bold">line</span></div>
+  <div class="foot-links mono"><span>Services · Barbers · The book · Gift · Shop · Visit · Instagram</span><span class="r">Concept demo. Prices and people are illustrative.</span></div>
+</footer>
+</main>
+
+<!-- BOOKING MODAL -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="Booking">
+    <button class="x" id="mClose" aria-label="Close">×</button>
+    <div class="steps">
+      <section data-step="1"><p class="mono tiny">Step 1 of 4</p><h3>Pick your cut</h3><div class="underline"></div><div class="opts" id="optService"></div></section>
+      <section data-step="2"><p class="mono tiny">Step 2 of 4</p><h3>Pick your barber</h3><div class="underline"></div><div class="opts" id="optBarber"></div></section>
+      <section data-step="3"><p class="mono tiny">Step 3 of 4</p><h3>Pick a time</h3><div class="underline"></div><div class="days" id="days"></div><div class="slots" id="slots"></div></section>
+      <section data-step="4"><p class="mono tiny">Step 4 of 4</p><h3>Hold the chair</h3><div class="underline"></div>
+        <label class="mono tiny">Name<input id="fName" placeholder="Full name" autocomplete="name"></label>
+        <label class="mono tiny">Mobile, for the reminder text<input id="fPhone" placeholder="Phone number" inputmode="tel"></label>
+        <label class="mono tiny">Card for the $10 deposit<input id="fCard" placeholder="4242 4242 4242 4242" inputmode="numeric"></label>
+        <p class="note"><b>The $10 deposit comes off your bill.</b> Cancel or move up to 12 hours before and you get it back. Later than that, or a no-show, and it covers your barber's time.</p>
+      </section>
+      <section data-step="5"><p class="mono tiny">Confirmed</p><h3>Your chair is held</h3><div class="underline"></div>
+        <dl id="summary"></dl>
+        <p class="note" id="confNote"></p>
+        <div class="row"><button class="pill light sm" id="addCal">Add to calendar</button></div>
+      </section>
+    </div>
+    <footer class="mfoot"><span class="mono tiny" id="mSum"></span><div><button class="pill ghost sm" id="mBack">Back</button> <button class="pill light sm" id="mNext">Continue</button></div></footer>
+  </div>
+</div>
+
+<div class="cursor" id="cursor"></div>
+<script src="app.js"></script>
+</body>
+</html>
